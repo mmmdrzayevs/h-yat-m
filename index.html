@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="az">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title> Aysum üçün ❤️</title>
+  <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Roboto&family=Dancing+Script:wght@700&display=swap" rel="stylesheet">
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: 'Roboto', sans-serif;
+      background: linear-gradient(to bottom right, #ffb6c1, #ffe4e1);
+      overflow-x: hidden;
+      position: relative;
+    }
+
+    h1 {
+      font-family: 'Dancing Script', cursive;
+      text-align: center;
+      font-size: 4em;
+      color: #e60073;
+      margin-top: 30px;
+    }
+
+    .heart {
+      color: red;
+      font-size: 30px;
+      animation: pulse 1s infinite;
+    }
+
+    @keyframes pulse {
+      0% { transform: scale(1); }
+      50% { transform: scale(1.2); }
+      100% { transform: scale(1); }
+    }
+
+    .message-box {
+      text-align: center;
+      max-width: 800px;
+      margin: 40px auto;
+      background: white;
+      padding: 30px;
+      border-radius: 20px;
+      box-shadow: 0 0 20px rgba(255, 105, 180, 0.5);
+      font-size: 1.2em;
+      line-height: 1.8;
+      color: #c71585;
+    }
+
+    .romantic-words {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 20px;
+      margin: 40px;
+    }
+
+    .word {
+      background-color: #ffe6f0;
+      border-radius: 15px;
+      padding: 15px 25px;
+      font-size: 1.2em;
+      font-family: 'Great Vibes', cursive;
+      color: #e60073;
+      box-shadow: 0 0 10px rgba(255, 192, 203, 0.7);
+      animation: float 3s ease-in-out infinite;
+    }
+
+    @keyframes float {
+      0%, 100% { transform: translateY(0); }
+      50% { transform: translateY(-10px); }
+    }
+
+    .music-controls {
+      text-align: center;
+      margin: 20px;
+    }
+
+    .music-controls button {
+      background-color: #ff69b4;
+      border: none;
+      padding: 10px 20px;
+      font-size: 1em;
+      color: white;
+      border-radius: 20px;
+      cursor: pointer;
+    }
+
+    .flower {
+      position: fixed;
+      width: 50px;
+      animation: fall 10s linear infinite;
+    }
+
+    @keyframes fall {
+      0% { top: -50px; left: calc(100% * var(--i)); }
+      100% { top: 100vh; left: calc(100% * var(--i) + 50px); }
+    }
+
+    .footer {
+      text-align: center;
+      font-size: 1em;
+      margin: 30px auto;
+      color: #8b008b;
+      font-weight: bold;
+    }
+
+    .click-heart {
+      position: absolute;
+      font-size: 2em;
+      color: red;
+      animation: pop 0.6s forwards;
+      pointer-events: none;
+    }
+
+    @keyframes pop {
+      0% { transform: scale(0); opacity: 1; }
+      100% { transform: scale(2); opacity: 0; }
+    }
+
+    .surprise-btn {
+      display: block;
+      margin: 20px auto;
+      background-color: #ff69b4;
+      color: white;
+      padding: 15px 30px;
+      font-size: 1.2em;
+      border: none;
+      border-radius: 30px;
+      cursor: pointer;
+      transition: 0.3s;
+    }
+
+    .surprise-btn:hover {
+      background-color: #ff1493;
+    }
+
+    .popup {
+      display: none;
+      position: fixed;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      background: white;
+      padding: 30px;
+      border-radius: 20px;
+      box-shadow: 0 0 20px rgba(255, 20, 147, 0.8);
+      z-index: 1000;
+      text-align: center;
+      color: #c71585;
+      font-size: 1.3em;
+    }
+
+    .overlay {
+      display: none;
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background: rgba(0, 0, 0, 0.5);
+      z-index: 999;
+    }
+
+    .timer, .birthday {
+      text-align: center;
+      font-size: 1.2em;
+      color: #d80073;
+      margin-top: 20px;
+    }
+  </style>
+</head>
+
+<body>
+  <h1>Canım Həyatım Sevgilim ❤️</h1>
+
+  <div class="message-box">
+    <p>Həyatım, Aysum, Birdənəm</p>
+    <p>Sən mənim günəşim, gecəmi işıqlandıran ulduzum, ürəyimin ən dərin hissəsisən. Səninlə keçirdiyim hər an bir möcüzə kimidir.</p>
+    <p>Səni sevmək bir hiss deyil, bütöv bir aləmdir. Və o aləm yalnız sənlə doludur. 💖</p>
+    <p>Bu səhifəyə hər dəfə baxdığında, bil ki, mənim ürəyim yalnız sənin üçün döyünür.</p>
+    <p class="heart">❤️ ❤️ ❤️</p>
+  </div>
+
+  <div class="romantic-words">
+    <div class="word">Sən mənim hər şeyimsən 💫</div>
+    <div class="word">Sonsuz sevgim sənədir 💍</div>
+    <div class="word">Ruhumu işıqlandırırsan 🔥</div>
+    <div class="word">Aysu, sən sehirsən ✨</div>
+    <div class="word">Ürəyim sənin üçün döyünür ❤️</div>
+    <div class="word">Sən mənim ən şirin yuxumsan 🌙</div>
+    <div class="word">Mənim tükənməz sevgim 💌</div>
+    <div class="word">Sən mənim üçün mükəmməlsən 🌹</div>
+  </div>
+
+  <div class="birthday">
+    🎂 Aysumun doğum tarixi: 20 Dekabr 2007                Sənin kimi möhtəşəm bir qızın doğulduğu gün dünya işıqlandı! 💖
+  </div>
+
+  <div class="music-controls">
+    <button onclick="toggleMusic()">🎵 Musiqini səsləndir / dayandır</button>
+    <audio id="romanticMusic" loop autoplay>
+      <source src="https://cdn.pixabay.com/download/audio/2022/03/15/audio_aeb7e93bc5.mp3" type="audio/mpeg">
+    </audio>
+  </div>
+
+  <button class="surprise-btn" onclick="showSurprise()">🎁 Sehirli Sürpriz</button>
+
+  <div class="timer" id="loveTimer"></div>
+  <div class="timer" id="changingMessage"></div>
+
+  <div class="overlay" id="overlay"></div>
+  <div class="popup" id="popup">
+    💖 Sürpriz! Mən səni çox sevirəm Aysu! Bu dünya sənə layiq deyil, çünki sən daha gözəlsən! 💖
+    <br><br>
+    💌 Hər anımda, hər nəfəsimdə sən varsan.
+  </div>
+
+  <img src="https://i.ibb.co/vdjtZXx/rose.png" class="flower" style="--i: 0.1">
+  <img src="https://i.ibb.co/vdjtZXx/rose.png" class="flower" style="--i: 0.3">
+  <img src="https://i.ibb.co/vdjtZXx/rose.png" class="flower" style="--i: 0.5">
+  <img src="https://i.ibb.co/vdjtZXx/rose.png" class="flower" style="--i: 0.7">
+  <img src="https://i.ibb.co/vdjtZXx/rose.png" class="flower" style="--i: 0.9">
+
+  <div class="footer">
+    <p>      Səni sonsuz sevən, hər zaman yanında olan sevgilin <strong>SƏİD</strong> ❤️</p>
+  </div>
+
+  <script>
+    document.addEventListener('click', function (e) {
+      const heart = document.createElement('div');
+      heart.className = 'click-heart';
+      heart.textContent = '❤️';
+      heart.style.left = e.pageX + 'px';
+      heart.style.top = e.pageY + 'px';
+      document.body.appendChild(heart);
+      setTimeout(() => heart.remove(), 600);
+    });
+
+    function toggleMusic() {
+      const music = document.getElementById("romanticMusic");
+      if (music.paused) music.play();
+      else music.pause();
+    }
+
+    function showSurprise() {
+      document.getElementById('popup').style.display = 'block';
+      document.getElementById('overlay').style.display = 'block';
+      setTimeout(() => {
+        document.getElementById('popup').style.display = 'none';
+        document.getElementById('overlay').style.display = 'none';
+      }, 5000);
+    }
+
+    const startDate = new Date("2025-05-15T22:10:00");
+    function updateTimer() {
+      const now = new Date();
+      const diff = now - startDate;
+      const days = Math.floor(diff / (1000 * 60 * 60 * 24));
+      const hours = Math.floor((diff / (1000 * 60 * 60)) % 24);
+      const minutes = Math.floor((diff / (1000 * 60)) % 60);
+      document.getElementById("loveTimer").textContent = `Səni sevdiyimdən, həyatımda yeni ulduz yaranandan bu yana: ${days} gün, ${hours} saat, ${minutes} dəqiqə keçdi 💘`;
+    }
+    setInterval(updateTimer, 60000);
+    updateTimer();
+
+    const messages = [
+      "Sənin gülüşün günəş kimidir ☀️",
+      "Sən olmadan bu dünya solğundur 🌍",
+      "Aysu, sən mənim nəfəsimsən 💨",
+      "Sənə hər baxışımda aşiq oluram 💕",
+      "Səninlə həyat daha gözəldir 🌈"
+    ];
+    let msgIndex = 0;
+    function updateMessage() {
+      document.getElementById("changingMessage").textContent = messages[msgIndex];
+      msgIndex = (msgIndex + 1) % messages.length;
+    }
+    setInterval(updateMessage, 2000);
+    updateMessage();
+  </script>
+</body>
+
+</html>
